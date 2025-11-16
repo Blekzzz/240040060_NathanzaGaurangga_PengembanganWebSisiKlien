@@ -1,0 +1,50 @@
+/* Simple navigation styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 15px;
+}
+
+nav li {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.box-hover:hover {
+    background-color: pink;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.box-hover {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+@media (max-width: 600px) {
+    #main-title {
+        font-size: 32px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
