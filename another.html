@@ -7,7 +7,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <a href="index.html" align="left">Back to Main</a>
+    <a href="index.html" class="back-btn">Back to Main</a>
     <h1>This is Another Document</h1>
+
+    <p>Welcome to another HTML document linked from the main page.</p>
+
+    <div id="colorBox" style="width:150px; height:150px; background:gray;"></div>
+
+    <div>
+        <p>Change Box Color:</p>
+        <button onclick="changeColor('red')">Red</button>
+        <button onclick="changeColor('yellow')">Yellow</button>
+        <button onclick="changeColor('green')">Green</button>
+    </div>
+    <script>
+    function changeColor(color) {
+        document.getElementById('colorBox').style.background = color
+    }
+    </script>
 </body>
 </html>
