@@ -12,13 +12,15 @@
 
     <p>Welcome to another HTML document linked from the main page.</p>
 
-    <div id="colorBox" style="width:150px; height:150px; background:gray;"></div>
+    <div id="colorBox"></div>
 
     <div>
         <p>Change Box Color:</p>
-        <button onclick="changeColor('red')">Red</button>
-        <button onclick="changeColor('yellow')">Yellow</button>
-        <button onclick="changeColor('green')">Green</button>
+        <button onclick="changeColor('red')" id="red-btn">Red</button>
+        <button onclick="changeColor('yellow')" id="yellow-btn">Yellow</button>
+        <button onclick="changeColor('green')" id="green-btn">Green</button>
+        <br><br>
+        <button onclick="changeColor('white')" id="reset-color-btn">Reset</button>
     </div>
     <script>
     function changeColor(color) {

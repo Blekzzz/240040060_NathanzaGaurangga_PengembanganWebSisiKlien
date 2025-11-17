@@ -14,33 +14,16 @@
 
     <div align="center" class="container">
 
-        <!-- Form Login -->
-        <form id="login-form" method="post">
-            <div class="card">
-                <h2>Login</h2>
+        <div id="login-status"></div>
 
-                <input type="text" id="username" placeholder="Username" name="username" required>
-                <input type="password" id="password" placeholder="Password" name="password" required>
-
-                <button type="submit" id="login-btn" style="margin-top: 5px;">Login</button>
-
-                <div id="login-message" class="message"></div>
-            </div>
-        </form>
-
-        <!-- Data User -->
-        <div class="card">
+        <div class="card" class="container">
             <h2>Data dari DummyJSON</h2>
 
             <button id="show-data-btn">Tampilkan Data</button>
 
             <div id="auth-message" class="message"></div>
 
-            <div id="userdata" class="hidden">
-                <p><strong>Name.</strong> <span id="user-name"></span></p>
-                <p><strong>Email.</strong> <span id="user-email"></span></p>
-                <p><strong>Username.</strong> <span id="user-username"></span></p>
-            </div>
+            <div id="collection-data" class="hidden"></div>
         </div>
 
     </div>

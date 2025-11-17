@@ -68,12 +68,6 @@ main {
     }
 }
 
-#colorBox {
-    border: 2px solid black;
-    border-radius: 8px;
-    transition: background-color 0.5s;
-}
-
 .button-warna {
     margin-top: 10px;
     margin-right: 5px;
@@ -107,4 +101,57 @@ main {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+#logout-btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#red-btn {
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#yellow-btn {
+    background-color: yellow;
+    color: black;
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#green-btn {
+    background-color: green;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#reset-color-btn {
+    background-color: gray;
+    color: white;
+    padding: 8px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#colorBox {
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: background-color 0.5s;
 }
